@@ -76,8 +76,8 @@ WSGI_APPLICATION = 'bikintour.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.psotgressql',
-        'NAME': 'bikintour_db',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'bikintour',
         'USER': 'postgres',
         'PASSWORD': 'Postgres123',
         "HOST": 'localhost',
